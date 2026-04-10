@@ -6,32 +6,6 @@
 This project is a  frontend clone of a modern e-learning platform inspired by Udemy. It focuses on building a scalable, reusable, and responsive UI using React, with attention to real-world design systems and user experience.
 The application showcases multiple sections such as course carousels, AI learning modules, testimonials, and career-focused content — mimicking a production-level learning platform.
 
-Component Architecture
-
-src/
-│
-├── components/
-│   ├── Navbar/
-│   ├── Hero/
-│   ├── SkillsCarousel/
-│   ├── LearnAISection/
-│   ├── AISection/
-│   ├── SkillsSection/
-│   ├── TrendingCourses/
-│   ├── PopularSkillsSection/
-│   ├── CertifiedSection/
-│   ├── ExploreSkills/
-│   ├── CompanyStrip/
-│   ├── TrustedBySection/
-│   ├── TestimonialSection/
-│   └── Footer/
-│
-├── data/
-│   └── courses.js
-│
-├── App.js
-└── index.js
-
 🎯 Key Features
 
 ✅ Fully responsive design (Mobile, Tablet, Desktop)
@@ -75,6 +49,10 @@ src/
 -Lazy loading images
 -Optimized component rendering
 -Minimal dependencies for faster load time
+
+🚀 Live Demo
+
+https://s-udemy-clone.netlify.app/
 
 🧪 Future Improvements
 
