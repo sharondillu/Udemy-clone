@@ -1,0 +1,47 @@
+.company-strip {
+ background: oklch(0.2974 0.0362 281.73999);
+ color: white;
+ padding: 20px 0;
+}
+
+.strip-inner {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ gap: 20px;
+}
+
+.strip-text {
+ font-size: 18px;
+ padding-left: 30px;
+ font-weight: 500;
+}
+
+.logos {
+    size: 17px;
+ display: flex;
+ align-items: center;
+ gap: 30px;
+}
+
+.logos img {
+ height: 44px;
+ filter: brightness(0) invert(1); /* white logos */
+ width:auto;
+ object-fit: contain;
+ transition: opacity 0.2s ease;
+ padding-right: 40px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+ .strip-inner {
+   flex-direction: column;
+   text-align: center;
+ }
+
+ .logos {
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+}

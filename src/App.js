@@ -1,23 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import SkillsCarousel from "./components/SkillsCarousel";
+import AISection from "./components/AISection";
+import SkillsSection from "./components/SkillsSection";
+import TrustedBySection from "./components/TrustedBySection";
+import TestimonialSection from "./components/TestimonialSection";
+import CertifiedSection from "./components/CertifiedSection";
+import ReimagineCareer from "./components/ReimagineCareer";
+import TrendingCourses from "./components/TrendingCourses";
+import PopularSkillsSection from "./components/PopularSkillsSection";
+import CompanyStrip from "./components/CompanyStrip";
+import ExploreSkills from "./components/ExploreSkills";
+import Footer from "./components/Footer";
+import LearnAISection from "./components/LearnAISection";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <Navbar/>
+      <Hero/>
+      <SkillsCarousel/>
+      <LearnAISection/>
+      <AISection />
+      <SkillsSection/>
+      <TrustedBySection />
+      <TestimonialSection />
+      <CertifiedSection/>
+      <ReimagineCareer/>
+      <TrendingCourses/>
+      <PopularSkillsSection/>
+      <CompanyStrip/>
+      <ExploreSkills/>
+      <Footer/>
+      
     </div>
   );
 }

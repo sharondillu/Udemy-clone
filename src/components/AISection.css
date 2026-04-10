@@ -1,0 +1,124 @@
+.ai-section {
+  /*background-color: #0f172a;*/
+  color: white;
+  width: 100%;
+ background: #f7f9fa;
+  padding: 80px 40px;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.ai-container {
+  background-color: #0f172a;
+  max-width: 1350px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+
+ 
+}
+
+/* Left Text Content */
+.ai-content {
+  padding-right: 5px;  
+  padding-left: 60px;      
+}
+
+.ai-title {
+  margin-top: 60px;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.15;
+  margin-bottom: 24px;
+  
+}
+
+.ai-highlight {
+  background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ai-description {
+  margin-top: 12px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #cbd5e1;
+  margin-bottom: 40px;
+}
+
+.ai-features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-bottom: 40px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.1rem;
+}
+
+.feature-icon {
+  font-size: 1.6rem;
+  min-width: 28px;
+}
+
+.learn-more-btn {
+  background-color: white;
+  color: #0f172a;
+  border: none;
+  padding: 16px 42px;
+  font-size: 1.15rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 12px;
+  transition: all 0.3s ease;
+}
+
+.learn-more-btn:hover {
+  background-color: #e2e8f0;
+  transform: translateY(-3px);
+}
+
+.pricing {
+  margin-top: 12px;
+  color: #94a3b8;
+  font-size: 1.05rem;
+}
+
+/* Right Side - Single Image */
+.ai-visuals {
+  position: relative;
+}
+
+.main-visual {
+  width: 100%;
+  height: auto;
+  max-height: 620px;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4);
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .ai-container {
+    grid-template-columns: 1fr;
+    gap: 50px;
+    text-align: center;
+  }
+  
+  .ai-title {
+    font-size: 2.6rem;
+  }
+  
+  .main-visual {
+    max-height: 420px;
+  }
+}
